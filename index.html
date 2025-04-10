@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Second Project</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+ <div class="to-do container">
+  <div class="to-do header">
+  <h1>TO-DO LIST</h1>
+  </div>
+<div class="todo-form">
+<input type="text" class="list-form" name="list-name" id="list-name" placeholder="Add a list">
+<button id="add-button" onclick="addtask()">Add</button>
+</div>
+<h2>Task List</h2>
+<ul id="list-container"></ul>
+<hr>
+<div class="counter-container">
+<div id="task-counters"> completed : <span id="completed-counter"> 0 </span> | uncompleted : <span id="uncompleted-counter"> 0  </span></div>
+</div>
+ </div>
+<script src="script.js"></script>
+</body>
+</html>
